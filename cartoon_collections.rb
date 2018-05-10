@@ -9,7 +9,7 @@ end
 def summon_captain_planet(planeteer_calls)# code an argument here
   # Your code here
   # planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-  planeteer_calls.map! {|name| name.capitalize }. join("!")
+  planeteer_calls.map! {|name| name.capitalize }.join("!")
 end
 
 def long_planeteer_calls# code an argument here
